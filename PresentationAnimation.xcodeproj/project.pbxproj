@@ -15,6 +15,12 @@
 		09ECD8FC1E9E12A500BEEA7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09ECD8FA1E9E12A500BEEA7B /* LaunchScreen.storyboard */; };
 		09ECD9071E9E12A500BEEA7B /* PresentationAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ECD9061E9E12A500BEEA7B /* PresentationAnimationTests.swift */; };
 		09ECD9121E9E12A500BEEA7B /* PresentationAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ECD9111E9E12A500BEEA7B /* PresentationAnimationUITests.swift */; };
+		09ECD9211E9E12D900BEEA7B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ECD91F1E9E12D900BEEA7B /* FirstViewController.swift */; };
+		09ECD9221E9E12D900BEEA7B /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09ECD9201E9E12D900BEEA7B /* FirstViewController.xib */; };
+		09ECD9261E9E132800BEEA7B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ECD9241E9E132800BEEA7B /* SecondViewController.swift */; };
+		09ECD9271E9E132800BEEA7B /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09ECD9251E9E132800BEEA7B /* SecondViewController.xib */; };
+		09ECD92A1E9E133F00BEEA7B /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ECD9281E9E133F00BEEA7B /* ThirdViewController.swift */; };
+		09ECD92B1E9E133F00BEEA7B /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09ECD9291E9E133F00BEEA7B /* ThirdViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		09ECD90D1E9E12A500BEEA7B /* PresentationAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresentationAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09ECD9111E9E12A500BEEA7B /* PresentationAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationAnimationUITests.swift; sourceTree = "<group>"; };
 		09ECD9131E9E12A500BEEA7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09ECD91F1E9E12D900BEEA7B /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		09ECD9201E9E12D900BEEA7B /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		09ECD9241E9E132800BEEA7B /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		09ECD9251E9E132800BEEA7B /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		09ECD9281E9E133F00BEEA7B /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		09ECD9291E9E133F00BEEA7B /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				09ECD8ED1E9E12A500BEEA7B /* PresentationAnimation */,
+				09ECD9231E9E12E200BEEA7B /* Source File */,
 				09ECD9051E9E12A500BEEA7B /* PresentationAnimationTests */,
 				09ECD9101E9E12A500BEEA7B /* PresentationAnimationUITests */,
 				09ECD8EC1E9E12A500BEEA7B /* Products */,
@@ -102,10 +115,12 @@
 				09ECD8EE1E9E12A500BEEA7B /* AppDelegate.swift */,
 				09ECD8F01E9E12A500BEEA7B /* ViewController.swift */,
 				09ECD8F21E9E12A500BEEA7B /* Main.storyboard */,
-				09ECD8F81E9E12A500BEEA7B /* Assets.xcassets */,
-				09ECD8FA1E9E12A500BEEA7B /* LaunchScreen.storyboard */,
-				09ECD8FD1E9E12A500BEEA7B /* Info.plist */,
-				09ECD8F51E9E12A500BEEA7B /* PresentationAnimation.xcdatamodeld */,
+				09ECD91F1E9E12D900BEEA7B /* FirstViewController.swift */,
+				09ECD9201E9E12D900BEEA7B /* FirstViewController.xib */,
+				09ECD9241E9E132800BEEA7B /* SecondViewController.swift */,
+				09ECD9251E9E132800BEEA7B /* SecondViewController.xib */,
+				09ECD9281E9E133F00BEEA7B /* ThirdViewController.swift */,
+				09ECD9291E9E133F00BEEA7B /* ThirdViewController.xib */,
 			);
 			path = PresentationAnimation;
 			sourceTree = "<group>";
@@ -126,6 +141,18 @@
 				09ECD9131E9E12A500BEEA7B /* Info.plist */,
 			);
 			path = PresentationAnimationUITests;
+			sourceTree = "<group>";
+		};
+		09ECD9231E9E12E200BEEA7B /* Source File */ = {
+			isa = PBXGroup;
+			children = (
+				09ECD8F81E9E12A500BEEA7B /* Assets.xcassets */,
+				09ECD8FA1E9E12A500BEEA7B /* LaunchScreen.storyboard */,
+				09ECD8FD1E9E12A500BEEA7B /* Info.plist */,
+				09ECD8F51E9E12A500BEEA7B /* PresentationAnimation.xcdatamodeld */,
+			);
+			name = "Source File";
+			path = PresentationAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,7 +267,10 @@
 			files = (
 				09ECD8FC1E9E12A500BEEA7B /* LaunchScreen.storyboard in Resources */,
 				09ECD8F91E9E12A500BEEA7B /* Assets.xcassets in Resources */,
+				09ECD92B1E9E133F00BEEA7B /* ThirdViewController.xib in Resources */,
 				09ECD8F41E9E12A500BEEA7B /* Main.storyboard in Resources */,
+				09ECD9221E9E12D900BEEA7B /* FirstViewController.xib in Resources */,
+				09ECD9271E9E132800BEEA7B /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +298,9 @@
 				09ECD8F11E9E12A500BEEA7B /* ViewController.swift in Sources */,
 				09ECD8EF1E9E12A500BEEA7B /* AppDelegate.swift in Sources */,
 				09ECD8F71E9E12A500BEEA7B /* PresentationAnimation.xcdatamodeld in Sources */,
+				09ECD9261E9E132800BEEA7B /* SecondViewController.swift in Sources */,
+				09ECD92A1E9E133F00BEEA7B /* ThirdViewController.swift in Sources */,
+				09ECD9211E9E12D900BEEA7B /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
