@@ -22,5 +22,13 @@ class FirstViewController: UIViewController {
         self.dismiss(animated: true, completion: nil)
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let vc = SecondViewController(nibName: "SecondViewController", bundle: nil)
+        vc.modalPresentationStyle = .custom   //表示可以
+        vc.transitioningDelegate = ZYTransition.sharedTransition()
+        self.present(vc, animated: true, completion: nil)
+        
+    }
+    
 }
 

@@ -18,13 +18,16 @@ class ViewController: UIViewController {
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         let vc = FirstViewController(nibName: "FirstViewController", bundle: nil)
-        vc.modalPresentationStyle = .formSheet
+        vc.modalPresentationStyle = .custom   //表示可以
+        vc.transitioningDelegate = ZYTransition.sharedTransition()
         self.present(vc, animated: true, completion: nil)
-        
-        print("\(vc.presentationController)  \(vc.presentingViewController)  \(vc.presentedViewController)")
         
     }
 
 
+}
+
+extension ViewController: UIViewControllerTransitioningDelegate {
+    
 }
 

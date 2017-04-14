@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09A2AA571EA0B5B5005D0C84 /* ZYTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A2AA561EA0B5B5005D0C84 /* ZYTransition.swift */; };
+		09A2AA591EA0E6F6005D0C84 /* ZYAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A2AA581EA0E6F6005D0C84 /* ZYAnimatedTransitioning.swift */; };
 		09ECD8EF1E9E12A500BEEA7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ECD8EE1E9E12A500BEEA7B /* AppDelegate.swift */; };
 		09ECD8F11E9E12A500BEEA7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ECD8F01E9E12A500BEEA7B /* ViewController.swift */; };
 		09ECD8F41E9E12A500BEEA7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09ECD8F21E9E12A500BEEA7B /* Main.storyboard */; };
@@ -21,6 +23,7 @@
 		09ECD9271E9E132800BEEA7B /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09ECD9251E9E132800BEEA7B /* SecondViewController.xib */; };
 		09ECD92A1E9E133F00BEEA7B /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ECD9281E9E133F00BEEA7B /* ThirdViewController.swift */; };
 		09ECD92B1E9E133F00BEEA7B /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09ECD9291E9E133F00BEEA7B /* ThirdViewController.xib */; };
+		09ECD92F1E9E231B00BEEA7B /* ZYPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ECD92E1E9E231B00BEEA7B /* ZYPresentationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09A2AA561EA0B5B5005D0C84 /* ZYTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYTransition.swift; sourceTree = "<group>"; };
+		09A2AA581EA0E6F6005D0C84 /* ZYAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYAnimatedTransitioning.swift; sourceTree = "<group>"; };
 		09ECD8EB1E9E12A500BEEA7B /* PresentationAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PresentationAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09ECD8EE1E9E12A500BEEA7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09ECD8F01E9E12A500BEEA7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +66,7 @@
 		09ECD9251E9E132800BEEA7B /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 		09ECD9281E9E133F00BEEA7B /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		09ECD9291E9E133F00BEEA7B /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		09ECD92E1E9E231B00BEEA7B /* ZYPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYPresentationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,7 @@
 		09ECD8ED1E9E12A500BEEA7B /* PresentationAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				09ECD92C1E9E1E5300BEEA7B /* Modal */,
 				09ECD8EE1E9E12A500BEEA7B /* AppDelegate.swift */,
 				09ECD8F01E9E12A500BEEA7B /* ViewController.swift */,
 				09ECD8F21E9E12A500BEEA7B /* Main.storyboard */,
@@ -153,6 +160,16 @@
 			);
 			name = "Source File";
 			path = PresentationAnimation;
+			sourceTree = "<group>";
+		};
+		09ECD92C1E9E1E5300BEEA7B /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				09ECD92E1E9E231B00BEEA7B /* ZYPresentationController.swift */,
+				09A2AA561EA0B5B5005D0C84 /* ZYTransition.swift */,
+				09A2AA581EA0E6F6005D0C84 /* ZYAnimatedTransitioning.swift */,
+			);
+			path = Modal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,9 +315,12 @@
 				09ECD8F11E9E12A500BEEA7B /* ViewController.swift in Sources */,
 				09ECD8EF1E9E12A500BEEA7B /* AppDelegate.swift in Sources */,
 				09ECD8F71E9E12A500BEEA7B /* PresentationAnimation.xcdatamodeld in Sources */,
+				09A2AA571EA0B5B5005D0C84 /* ZYTransition.swift in Sources */,
+				09A2AA591EA0E6F6005D0C84 /* ZYAnimatedTransitioning.swift in Sources */,
 				09ECD9261E9E132800BEEA7B /* SecondViewController.swift in Sources */,
 				09ECD92A1E9E133F00BEEA7B /* ThirdViewController.swift in Sources */,
 				09ECD9211E9E12D900BEEA7B /* FirstViewController.swift in Sources */,
+				09ECD92F1E9E231B00BEEA7B /* ZYPresentationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,6 +573,7 @@
 				09ECD9181E9E12A500BEEA7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09ECD9191E9E12A500BEEA7B /* Build configuration list for PBXNativeTarget "PresentationAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -561,6 +582,7 @@
 				09ECD91B1E9E12A500BEEA7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09ECD91C1E9E12A500BEEA7B /* Build configuration list for PBXNativeTarget "PresentationAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -569,6 +591,7 @@
 				09ECD91E1E9E12A500BEEA7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
